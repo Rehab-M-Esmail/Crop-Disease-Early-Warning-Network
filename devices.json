@@ -1,0 +1,103 @@
+{
+  "gateways": [
+    {
+      "id": "0000000000000001",
+      "name": "gateway_zone1",
+      "description": "Gateway for Zone 1",
+      "latitude": 30.0,
+      "longitude": 31.0,
+      "altitude": 100
+    },
+    {
+      "id": "0000000000000002",
+      "name": "gateway_zone2",
+      "description": "Gateway for Zone 2",
+      "latitude": 30.1,
+      "longitude": 31.1,
+      "altitude": 100
+    }
+  ],
+  "devices": [
+    {
+      "deveui": "0000000000000001",
+      "appeui": "0000000000000000",
+      "appkey": "2B7E151628AED2A6ABF7158809CF4F3C",
+      "name": "node_zone1_01",
+      "zone": 1
+    },
+    {
+      "deveui": "0000000000000002",
+      "appeui": "0000000000000000",
+      "appkey": "2B7E151628AED2A6ABF7158809CF4F3D",
+      "name": "node_zone1_02",
+      "zone": 1
+    },
+    {
+      "deveui": "0000000000000003",
+      "appeui": "0000000000000000",
+      "appkey": "2B7E151628AED2A6ABF7158809CF4F3E",
+      "name": "node_zone1_03",
+      "zone": 1
+    },
+    {
+      "deveui": "0000000000000004",
+      "appeui": "0000000000000000",
+      "appkey": "2B7E151628AED2A6ABF7158809CF4F3F",
+      "name": "node_zone1_04",
+      "zone": 1
+    },
+    {
+      "deveui": "0000000000000005",
+      "appeui": "0000000000000000",
+      "appkey": "2B7E151628AED2A6ABF7158809CF4F40",
+      "name": "node_zone1_05",
+      "zone": 1
+    },
+    {
+      "deveui": "0000000000000011",
+      "appeui": "0000000000000000",
+      "appkey": "2B7E151628AED2A6ABF7158809CF4F41",
+      "name": "node_zone2_01",
+      "zone": 2
+    },
+    {
+      "deveui": "0000000000000012",
+      "appeui": "0000000000000000",
+      "appkey": "2B7E151628AED2A6ABF7158809CF4F42",
+      "name": "node_zone2_02",
+      "zone": 2
+    },
+    {
+      "deveui": "0000000000000013",
+      "appeui": "0000000000000000",
+      "appkey": "2B7E151628AED2A6ABF7158809CF4F43",
+      "name": "node_zone2_03",
+      "zone": 2
+    },
+    {
+      "deveui": "0000000000000014",
+      "appeui": "0000000000000000",
+      "appkey": "2B7E151628AED2A6ABF7158809CF4F44",
+      "name": "node_zone2_04",
+      "zone": 2
+    },
+    {
+      "deveui": "0000000000000015",
+      "appeui": "0000000000000000",
+      "appkey": "2B7E151628AED2A6ABF7158809CF4F45",
+      "name": "node_zone2_05",
+      "zone": 2
+    }
+  ],
+  "simulation": {
+    "interval_seconds": 300,
+    "message_rate": 1,
+    "randomize_timing": true,
+    "data_generation": {
+      "temperature_range": [10, 35],
+      "humidity_range": [40, 95],
+      "leaf_wetness_range": [0, 12],
+      "rainfall_range": [0, 20]
+    }
+  }
+}
