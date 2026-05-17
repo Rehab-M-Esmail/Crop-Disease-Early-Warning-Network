@@ -1,0 +1,13 @@
+{
+  "operation": "updateThresholds",
+  "version": "2.1.0",
+  "target_zone": "Zone_2",
+  "issued_at": "2025-05-17T00:00:00Z",
+  "thresholds": {
+    "LOW":      { "humidity_min": 55, "temp_max": 24, "leaf_wetness_min": 1, "rainfall_max": 1.5 },
+    "MODERATE": { "humidity_min": 70, "temp_max": 28, "leaf_wetness_min": 3, "rainfall_max": 4.0 },
+    "HIGH":     { "humidity_min": 82, "temp_max": 32, "leaf_wetness_min": 5, "rainfall_max": 8.0 },
+    "CRITICAL": { "humidity_min": 92, "temp_max": 36, "leaf_wetness_min": 7, "rainfall_max": 10.0 }
+  },
+  "rollback_on_failure": true
+}
